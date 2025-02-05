@@ -1,3 +1,6 @@
+#Combine forward and reverse reads
+cat forward_reads.fastq reverse_reads.fastq > combined_reads.fastq
+
 # Quality Control with FastQC
 module load fastqc
 fastqc forward_reads.fastq 
